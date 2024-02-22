@@ -1,4 +1,5 @@
 require "puma/plugin"
+require "rake"
 
 Puma::Plugin.create do
   attr_reader :puma_pid, :litestream_pid, :log_writer
